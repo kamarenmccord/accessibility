@@ -1,0 +1,15 @@
+
+.visual h3{
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-color: #73FF92
+}
+
+.visual p{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}

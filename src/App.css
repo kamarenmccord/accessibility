@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+
+/* see index css for accessibility rules */
+
+.app__main{
+    display:grid;
+    grid-template-columns: 20% 1fr 20%;
+    grid-template-rows: 1fr;
+    color: white;
+    font-size: 18px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__left{
+    line-height: 1.6;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 1;
+    border-right: 2px solid #73FF92;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__right{
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app__head{
+    line-height: 1.6;
+    width: 80%;
+    margin-left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.app__head h2{
+    color: #73ff92;
+    text-decoration: underline;
+    margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__head p{
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.app__head a{
+    color: blue;
+    font-size: 20px;
+    text-decoration:none;
+}
+
+.app__secondP{
+    margin-top: 20px;
+}
+
+.app__left ul{
+    margin-top: 20px;
+}
+
+.app__left li{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.app__left button{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.app__head h3{
+    margin-top: 20px;
+}
+
+.app__head p{
+    margin-top: 10px;
+}
+
+.app__developerInfo{
+    margin-top: 100px;
+}
+
+.app .controls ul{
+    margin-top: 10px;
+    display:flex;
+}
+
+.app .controls li{
+    margin-right: 50px;
+    cursor:pointer;
+    width: 100px;
+}
+
+.app .controls button{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.app .controls h3{
+    text-decoration:underline;
+    text-decoration-color: #73FF92;
+}
+
+.app__rightSubcontent{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.app__rightSubcontent h4{
+    margin-bottom: 10px;
+}
+
+.app__subcontent{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.app__subcontent h4{
+    text-decoration: underline;
+    font-size: 22px;
+    text-decoration-color: #73FF92;
+}
+
+.app__subcontent p{
+    font-size: 1.2em;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+
+.colorblind{
+    background-color: gray;
+    padding: 0 5px;
+    color: #ccc;
+}
+
+.colorFluid{
+    background-color: black;
+    padding: 0 5px;
+    color: #ccc;
+}
+
+.smallText{
+    font-size: 10px !important;
+    transition: 0.3s all ease;
+}
+
+.smallText:hover{
+    font-size: 22px !important;
+}
+
+.midText{
+    font-size: 26px !important;
 }

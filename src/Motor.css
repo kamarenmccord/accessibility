@@ -1,0 +1,11 @@
+
+.motor h3{
+    text-decoration: underline;
+    text-decoration-color: #73FF92;
+}
+
+.motor p{
+    line-height: 1.5;
+    font-size: 1.2em;
+    margin-top: 20px;
+}

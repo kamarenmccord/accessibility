@@ -1,0 +1,11 @@
+
+.seizures h3{
+    text-decoration: underline;
+    text-decoration-color: #73FF92;
+}
+
+.seizures p{
+    font-size: 1.2em;
+    margin-top: 20px;
+    line-height: 1.4;
+}
